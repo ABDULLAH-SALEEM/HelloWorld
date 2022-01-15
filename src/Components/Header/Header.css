@@ -1,0 +1,102 @@
+.header{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+
+.checkBoxTheme:checked ~ .header{
+    background-color: #192734;
+}
+
+.headerLeft > img{
+    height: 50px;
+}
+
+
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.headerMiddle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.headerMiddle > .headerMiddleOption{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 15px;
+    
+
+}
+
+.headerMiddle > .headerMiddleOptionHome{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-bottom: 2px solid  #1878f3;
+    
+
+}
+
+.headerMiddle > .headerMiddleOption:hover{
+    background-color:#e7ebee ;
+    cursor: pointer;
+}
+
+.headerMiddle > .headerMiddleOptionHome:hover{
+    background-color:#e7ebee ;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.headerMiddle > .headerMiddleOption > .MuiSvgIcon-root{
+    color: gray;
+    font-size: xx-large;
+}
+
+.headerMiddle > .headerMiddleOptionHome >div > .MuiSvgIcon-root{
+    color: #1878f3;
+    font-size: xx-large;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12%;
+    margin-right: 20px;
+}
+
+.headerRight >.headerRightOption{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e7ebee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+

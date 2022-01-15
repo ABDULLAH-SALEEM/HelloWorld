@@ -1,0 +1,24 @@
+.sameClass{
+    color: #1878f3;
+}
+
+.saved{
+    color: #6617cb;
+}
+.pages{
+    color: rgb(230, 154, 13);
+}
+
+.seeMore{
+    background-color: #cbcfd1 ;
+    border-radius: 50%;
+}
+
+.sidebar{
+    padding-top: 15px;
+    background-color: #f0f2f5;
+    /* position: fixed; */
+}
+
+
+

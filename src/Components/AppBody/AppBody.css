@@ -1,0 +1,16 @@
+.appBody{
+    background-color: #f0f2f5;
+    display: flex;
+}
+
+.appBody > .newsFeed{
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.appBody > .sidebar{
+    margin-top: 60px;
+    width: 20%;
+    position: fixed;
+}

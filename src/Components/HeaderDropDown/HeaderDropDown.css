@@ -1,0 +1,8 @@
+.downArrow{
+    color: black;
+    transform: scale(1.5);    
+}
+.settingsLink{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}

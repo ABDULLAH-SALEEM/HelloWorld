@@ -1,0 +1,11 @@
+.nameAvatar{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.nameAvatar > h4{
+    margin-left: 10px;
+    font-weight: 600;
+}

@@ -1,0 +1,64 @@
+.settings{
+    padding-top: 80px;
+    margin-left: 15px;
+    display: flex;
+}
+.settingsSubOpt, .settingsSubOpt-general{
+    display: flex;
+    align-items: center;
+    margin: 5px 0 5px 0 ;
+    padding: 10px 0 10px 10px;
+    margin-right: 10px;
+}
+.settingsSubOpt:hover{
+    background-color: rgb(233, 227, 227);
+    cursor: pointer;
+    border-radius: 6px;
+}
+.settingsSubOpt > .MuiSvgIcon-root{
+    color: gray;
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+.settingsSubOpt-general > .MuiSvgIcon-root{
+    color: gray;
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+.settingsSubOpt-general > h4{
+    font-weight: 600;
+    color: black;
+}
+.settingsSubOpt-general{
+    background-color: rgb(233, 227, 227);
+    cursor: pointer;
+    border-radius: 6px;
+}
+.settingsSubOpt > h4{
+    font-weight: 600;
+    color: black;
+}
+.sideBar{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.85px 1.85px 2.3px;
+    margin-right: 15px;
+}
+
+.settingsArea{
+    width: 65%;
+}
+.settingsArea > h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.settingsArea > .name, .emaill, .passwordd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+.name > h3, .emaill > h3, .passwordd > h3{
+    font-weight: 600;
+    cursor: pointer;
+}

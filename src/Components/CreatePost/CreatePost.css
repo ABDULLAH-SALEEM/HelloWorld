@@ -1,0 +1,116 @@
+.main > .createPost{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.createPostHeader{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #dcdddf;
+    padding-bottom: 20px;
+}
+
+.createPostHeaderInput{
+    margin-left: 20px;
+    background-color: #f0f2f5;
+    padding: 15px 15px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.createPostFotter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.video, .photo, .activity{
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+.video{
+    color: rgb(255, 81, 0);
+}
+.photo{
+    color: green;
+}
+
+.activity{
+    color: rgb(248, 180, 54);
+}
+
+.postAvatar{
+    font-size: 100px;
+}
+
+.postHeading{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1.5px solid;
+}
+
+.postBody{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.postContentText{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.postContent{
+    margin-top: 10px;
+}
+
+.imageUploadpreview  > img{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.uploadimage{
+    visibility: hidden;
+}
+
+.progress > h4{
+    color: black;
+    font-weight: 600;
+}
+
+.upload{
+    width: 100%;
+}
+.imageUploadpreview{
+    width: 200px;
+    height: 200px;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    cursor: pointer;
+}
+
+.imageUploadpreview > span{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.uploadImageHeading{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.uploadImageHeading > .MuiSvgIcon-root{
+    color: gray ;
+
+}

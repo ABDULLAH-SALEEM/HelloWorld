@@ -1,0 +1,64 @@
+.newsFeed > .createStory > .createStoryMain > .MuiSvgIcon-root{
+    background-color: #d3d6da ;
+    border-radius: 50%;
+    color: #1878f3;
+    margin-right: 10px;
+    font-size: xxx-large;
+}
+
+.newsFeed > .createStory{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.newsFeed > .createRoom{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.newsFeed > .createRoom > Button{
+    border-radius: 20px;
+    border: 1.5px solid #d3d6da ;
+    color: #1878f3;
+    padding: 10px 10px;
+}
+
+.roomVideo{
+    color: #6617cb;
+    margin-right: 10px;
+    font-size: xx-large;
+}
+
+.newsFeed > .createStory > .createStoryMain{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 10px ;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.newsFeed > .createStory > .createStoryMain:hover{
+    background-color: #f0f2f5;
+}
+
+.newsFeed > .createStory > .createStoryMain > .createStoryBody > p{
+    color: gray;
+}
+
+.newsFeed > .createStory > .createStoryMain > .createStoryBody > h3{
+    font-weight: 600;
+}
+
