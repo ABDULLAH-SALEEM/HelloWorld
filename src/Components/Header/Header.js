@@ -10,12 +10,13 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import { Link } from 'react-router-dom';
 import HeaderDropDown from '../HeaderDropDown/HeaderDropDown';
 import SearchUser from '../SearchUser/SearchUser';
+import logo from './logo.png'
 
 const Header = () => {
     return (
         <div className='header'>
             <div className='headerLeft'>
-                <img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" />
+                <img src={logo} />
                 <SearchUser />
             </div>
             <div className='headerMiddle'>

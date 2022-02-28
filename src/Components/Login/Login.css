@@ -57,3 +57,28 @@
     color: red;
     font-weight: 600;
 }
+
+.finger{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.finger >.MuiSvgIcon-root{
+    transform: scale(2);
+    cursor: pointer;
+    background-color:#cccdcf ;
+    color: #1f4597;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    
+}
+
+.animate{
+    width: 150px;
+    height: 200px;
+}

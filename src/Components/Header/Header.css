@@ -17,7 +17,9 @@
 }
 
 .headerLeft > img{
-    height: 50px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 

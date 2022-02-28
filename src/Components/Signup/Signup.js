@@ -67,7 +67,7 @@ const Signup = () => {
 
     return (
         <div className='signupWraper'>
-            <p className='signupHeading'>FRIENDS</p>
+            <p className='signupHeading'>Hello World</p>
             <div className='signupFormDiv'>
                 <form onSubmit={onFormSubmitHandler} className='signupForm' >
                     <TextField className="fullName" id="standard-basic" value={fullName} onChange={onFullNameChangeHandler} label="Enter Full Name" variant="standard" />
